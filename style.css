@@ -1,0 +1,32 @@
+body {
+    background: teal;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 300ms cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+h2 {
+    color: #f2f2f2;
+    font-weight: 200;
+}
+
+button {
+    padding: 15px;
+    background: transparent;
+    border: 2px solid #f2f2f2;
+    color: #f2f2f2;
+    transition: 800ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+button:hover {
+    background: #f2f2f2;
+    color: #252525;
+    cursor: pointer;
+}
+
+button:active {
+    padding: 10px;
+}
